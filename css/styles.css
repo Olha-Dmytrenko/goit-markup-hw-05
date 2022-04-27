@@ -345,6 +345,19 @@ img {
   margin-left: 30px;
 }
 
+/* .work-thumb { 
+  position: relative;
+}
+
+.work-label {
+  position: absolute;
+  transform: translate();
+  bottom: ;
+  opasity: 0;
+  display: flex;
+}
+*/
+
 /* Team */
 
 .section-title {
@@ -703,4 +716,18 @@ img {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+}
+
+.project-element::before {
+  content: '';
+  width: 370px;
+  height: 294px;
+  display: inline-block;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  opacity: 0;
+}
+
+.project-element:hover::before {
+  opacity: 1;
 }
