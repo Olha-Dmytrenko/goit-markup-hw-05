@@ -813,11 +813,15 @@ img {
 
 .modal-close-btn {
   position: absolute;
+  display: flex;
+  width: 30px;
+  height: 30px;
   top: 8px;
   right: 8px;
   border-radius: 50%;
   background-color: var(--secondary-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  transition: background-color 250ms, var(--timing-function), fill 250ms, var(--timing-function);
+  transition: 250ms var(--timing-function) 250ms var(--timing-function);
+  align-items: center;
 }
