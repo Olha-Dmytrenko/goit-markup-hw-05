@@ -457,7 +457,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  transition: background-color 250ms color 250ms var(--timing-function),
+  transition: background-color 250ms, color 250ms var(--timing-function),
     fill 250ms var(--timing-function);
 }
 
@@ -610,7 +610,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms color 250ms var(--timing-function),
+  transition: background-color 250ms, color 250ms var(--timing-function),
     fill 250ms var(--timing-function);
 }
 
@@ -678,7 +678,7 @@ img {
   padding-right: 22px;
   padding-left: 22px;
   margin-bottom: 50px;
-  transition: background-color 250ms color 250ms var(--timing-function),
+  transition: background-color 250ms, color 250ms var(--timing-function),
     fill 250ms var(--timing-function);
 }
 
@@ -706,7 +706,8 @@ img {
 .link-projects {
   text-decoration: none;
   display: block;
-  transition: box-shadow 250ms color 250ms var(--timing-function), fill 250ms var(--timing-function);
+  transition: box-shadow 250ms, color 250ms var(--timing-function),
+    fill 250ms var(--timing-function);
 }
 
 .link-projects:hover,
